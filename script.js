@@ -2,7 +2,7 @@ var videoPlayer = document.getElementById("video-player");
 var prevButton = document.getElementById("prev-button");
 var nextButton = document.getElementById("next-button");
 
-var videos = ["./static/4 Bake.mov", "./static/5 Dip.mov", "./static/6 Serving.mov"]; // Add your video URLs here
+var videos = ["./static/Step-1.mov", "./static/Step-2.mov", "./static/Step-3.mov", "./static/4 Bake.mov", "./static/5 Dip.mov", "./static/6 Serving.mov"]; // Add your video URLs here
 var currentVideoIndex = 0;
 
 // Function to load the current video
