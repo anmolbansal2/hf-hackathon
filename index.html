@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Video Gallery</title>
+  <title>Hello Recipe</title>
   <link rel="stylesheet" type="text/css" href="./static/styles.css">
 </head>
+<header>
+    <h1>Hello Recipe</h1>
+</header>
 <body>
-  <div class="video-container">
-    <div class="video-frame">
-      <video id="video-player" controls>
-        <source src="video1.mp4" type="video/mp4">
-        <!-- Add additional <source> tags for different video formats -->
-      </video>
-    </div>
-    <div class="navigation">
-      <button id="prev-button" onclick="prevVideo()">Previous</button>
-      <button id="next-button" onclick="nextVideo()">Next</button>
-    </div>
-  </div>
+    <h1 class="header-title">Apricot chicken with colorful piri piri diced vegetables</h1>
+    <h2 class="header-subtitle">and cauliflower from the tin, with coconut curry yoghurt dip
+    </h2>
+    <div class="container">
+        
+        <div class="text-container">
+          <h2 id="step-name" class="step-name"></h2>
+          <p id="step-instructions" class="step-instructions"></p>
+        </div>
+        <div class="video-container">
+          <div class="video-frame">
+            <video id="video-player" controls>
+              <source src="video1.mp4" type="video/mp4">
+              <!-- Add additional <source> tags for different video formats -->
+            </video>
+          </div>
+          <div class="navigation">
+            <button id="prev-button" onclick="prevVideo()">Previous</button>
+            <button id="next-button" onclick="nextVideo()">Next</button>
+          </div>
+        </div>
+      </div>
 
   <script src="script.js"></script>
 </body>
